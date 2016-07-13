@@ -48,12 +48,11 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Cloo, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\OpenCLTemplate\OpenCLTemplate\Cloo.dll</HintPath>
+    <Reference Include="Cloo">
+      <HintPath>..\..\DLL\Cloo.dll</HintPath>
     </Reference>
     <Reference Include="OpenCLTemplate">
-      <HintPath>..\..\OpenCLTemplate\OpenCLTemplate\OpenCLTemplate.dll</HintPath>
+      <HintPath>..\..\DLL\OpenCLTemplate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
